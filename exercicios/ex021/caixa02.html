@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(to left,   rgb(245, 124, 124), rgb(255, 188, 188)  );
+                margin: 0px;
+
+
+        }
+
+        header {
+                background: white;
+                padding: 10px;
+                margin: 10px;
+
+
+        }
+
+        main { background-color: wheat;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 10px 0px;
+                box-shadow: 4px 1px 1px 1px rgba(0, 0, 0, 0.384);
+
+        
+        }
+         nav {
+                background-color: rgb(192, 192, 192);
+                padding: 3px;
+                box-shadow: 5px 3px 7px 1px rgba(5, 5, 5, 0.404);
+                
+
+         }
+
+         nav > a {
+                
+                
+                text-decoration: none;
+                font-weight: bold;
+                margin-right: 30px;
+              
+            
+         }
+         
+
+         nav > a:hover {
+                text-decoration: underline;
+                
+
+
+         }
+
+
+        article {
+
+                background-color: lightcoral;
+                padding: 5px;
+        
+        
+        
+            }
+        
+            article > aside {
+
+                        background-color: rgb(255, 194, 194);
+
+            }
+        
+        
+        
+        footer {
+
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 4px;
+                margin: 0px;
+
+        }
+
+            footer > p {
+                margin: 0px;
+            }
+
+            div#bola{
+                    height: 10px;
+                    width: 10px;
+                    margin: 10px;
+                    
+
+
+
+            }
+            div > img{
+                height: 100px;
+                    width: 100px;
+                    margin: 0px;
+                    border-radius: 200px;
+                    box-shadow: -2px -2px 2px 2px rgba(0, 0, 0, 0.507);
+
+            }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+
+<!------------------------------------------------------------------------->
+
+<body>
+        <header> <!--         Cabeçalho              --> 
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Página Principal</a>
+                <a href="#">Noticias</a>
+                <a href="#">Assuntos</a>
+                <a href="#">Doações</a>
+                <a href="#">Trabalhe Conosco</a>
+                <a href="#">Contato</a>
+                <a href="#">Suporte</a>
+            </nav>
+
+        </header>
+
+        <main>    <!--        Conteúdo Principal      -->
+            <section id="assuntos"> 
+                <p>Esportes Política Tecnologia</p>
+                <article>
+
+
+                </article>
+            </section>
+            <section id="noticias">
+                <article>
+                     <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium dolorem tempora repellat rerum, pariatur est ea cum quo dignissimos cupiditate voluptates voluptate facilis illo voluptatum temporibus earum asperiores ipsum?</p>   
+                    
+                    
+                    <aside>
+                            <p>Artigo escrito por José da silva</p>
+                        </aside>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>
+                Desenvolvido pelo CursoemVideo
+            </p>
+
+        </footer>
+
+            <div id="bola">
+
+                <img src="paisagem-650 boa para conteudo de site.jpg" alt="">
+
+            </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="sts.ico.ico" type="image/x-icon">
+    <title>PRÁTICA 3 - Juntando HTML BASICO + IMAGENS + HIERARQUIA DE TITULOS.
+    </title>
+
+</head>
+<body>
+   <h1>O que é o HTML5?</h1>
+   <hr>
+   <h3>Conhecendo sobre :</h3> 
+   <p><b>Com o surgimento da web, era necessário criar uma linguagem que fosse entendida por meios de acesso diferentes. Para tanto, Tim Berners-Lee desenvolveu o HTML, com a proposta de suprir essa necessidade. Somente na década de 1990, quando o Mosaic – browser desenvolvido por Marc Andreessen – se popularizou, o HTML ganhou força e foi adotado por outros desenvolvedores e fabricante de browsers, compartilhando as mesmas convenções.
+
+    HTML é uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Marcação de Hipertexto. Resumindo, o HTML é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, áudio etc.) na web.
+    
+    Para que você possa entender bem, o HTML é baseado no conceito de hipertexto, que são conjuntos de elementos ligados por conexões, que podem ser palavras, imagens, vídeos, áudio, documentos etc. que quando conectados, formam uma grande rede de informação. A conexão feita em um hipertexto é algo imprevisto que permite a comunicação de dados, organizando conhecimentos e guardando informações relacionadas.
+    
+    Entre 1993 e 1995, surgiram novas versões (HTML+, HTML 2.0, HTML 3.0) onde foram propostas diversas mudanças para enriquecer as possibilidades da linguagem, mas, ela ainda não era tratada como padrão. Apenas em 1997, o grupo de trabalho do W3C, trabalhou na versão 3.2, fazendo com que ela fosse tratada como prática comum.
+    
+    Resumindo, e creio que você já tenha percebido, o HTML foi criado, e melhorado, para se tornar uma linguagem independente de plataformas ou meios de acesso, diminuindo custos e fazendo com que a web não ficasse limitada a uma base proprietárias com formatos incompatíveis.
+    
+    Em 2004, foi fundado o WHATWG (Web Hypertext Application Technology Working Group) por desenvolvedores de empresas como Mozilla, Apple e Opera, onde se iniciou o trabalho de escrever a nova versão do HTML, que seria chamado hoje de HTML5.</b></p>
+    <hr>
+    <h2>TAGS no HTML</h2>
+    <h3>O que são tags?</h3>
+    <p><b>Através de qualquer editor de texto, como o Sublime Text, o NotePad++ ou até mesmo o bloco de notas, é possível criar um documento com a extensão .html que será renderizado pelos navegadores.
+        <br><br></b>
+        
+        <b>Conforme explicado anteriormente, este documento consiste em uma série de tags. As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como tag e &lt;/tag&gt;. Há também tags de estrutura única, como a  tag &lt;br/&gt; que realiza uma quebra de linha.
+        <br><br></b>
+        
+       <b>Digamos que você queria escrever um paragrafo, chamamos então a tag &lt;p&gt;, escrevemos o paragrafo e finalmente fechamos a tag com &lt;/p&gt;
+        <br><br></b>
+
+            <b>&lt;p&gt; Meu primeiro paragrafo.&lt;/p&gt;</b>
+        <b>Dessa forma, ao salvar o arquivo com a extensão .html e abri-lo em um navegador, você verá o parágrafo escrito na tela do navegador.&lt;/p&gt;</b>
+        <b>&lt;h3&gt; Principais Tags do HTML &lt;/h3&gt;
+        &lt;p&gt; Atualmente existem mais de 140 tags, mas algumas delas quase não são utilizadas. Dentre as mais utilizadas temos:
+
+            &lt;head&gt; – local para declarar todas informações, como título e metadados da sua página;
+            &lt;title&gt; – define o título;
+            &lt;body&gt; – local para declarar todos os elementos que irão compor o corpo da página;
+            &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; e  &lt;h6&gt; – Tags para definir um título e subtítulos, variando de 1 a 6, sendo &lt;h1&gt; o título mais importante e &lt;h6&gt; o de menor importância;
+            <br><br></b>
+
+            &lt;p&gt; – Tag para definir um parágrafo.+;<br>
+            &lt;a&gt; – Tag de link, junto ao atributo href=”” é responsável pela principal característica da web;<br>
+            &lt;header&gt; – define um cabeçalho;<br>
+            &lt;section&gt; – define uma seção;<br>
+            &lt;article&gt; – define um artigo;<br>
+            &lt;div&gt; – define uma divisão;<br>
+            &lt;footer&gt; – define um rodapé;<br>
+            &lt;nav&gt; – define uma área de navegação (como menus);<br>
+            &lt;table&gt; – define uma tabela;<br>
+            &lt;ol&gt; – define uma lista ordenada;<br>
+            &lt;ul&gt; – define uma lista não ordenada;<br>
+            &lt;li&gt; – define o item de uma lista;<br>
+            &lt;form&gt; – define um formulário;<br>
+            &lt;input&gt; – define os campos do formulário;<br>
+            &lt;textarea&gt; – define uma área para o usuário digitar um texto;<br>
+            &lt;button&gt; – define um botão;<br>
+            &lt;img&gt; – permite inserir uma imagem no seu documento.<br>
+            &lt;h2&gt; A Estrutura Básica de um Documento HTML&lt;/h2&gt;<br>
+            <br>
+            <hr>
+            <b>Agora que já sabemos como funciona e quais as suas principais tags, vamos entender como é formado a estrutura básica de um documento HTML.<br><br>
+            O documento deve conter uma declaração informando o doctype, que no caso do HTML5, basta declarar com o elemento &lt;!DOCTYPE html&gt;.<br><br></b>
+            
+            <b>Após isso iniciamos nosso documento com a tag html que deverá ser fechada ao final do documento com &lt;/html&gt;.<br><br></b>
+             <b>Posteriormente, nosso documento deverá ter um elemento head que receberá todas as informações básicas da sua página, como o título, links de elementos externos, metadados, etc. </b>
+             <br><br>
+             <b>Declaramos então um título para página através da tag title. Finalmente abrimos então a tag &lt;body&gt; que consiste no corpo do nosso documento, onde ficarão todos os elementos que serão renderizados na tela do navegador. Dessa forma, temos a estrutura básica do nosso documento html:</b><br><br>
+
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                    &lt;head&gt;<br>
+                        &lt;title&gt; &lt;/title&gt;<br>
+                    &lt;/head&gt;<br>
+                
+                    &lt;body&gt;<br>
+                
+                    &lt;/body&gt;<br>
+                &lt;/html&gt;<br><br><br>
+                <b>Para que não ocorram erros de renderização ou incompatibilidade de caracteres, devemos também declarar o padrão de teclado. No Brasil e em boa parte da América Latina, utilizamos o padrão UTF-8. Dessa forma, através da tag de metadados meta/, vamos declarar dentro de um atributo charset que nosso padrão é o UTF-8. Temos assim a estrutura básica de nosso documento HTML:<br><br></b>
+                <hr>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                    &lt;head&gt;<br>
+                        &lt;title  /title&gt;<br>
+                        &lt;meta charset="utf-8"/&gt;<br>
+                    &lt;/head&gt;<br>
+                
+                    &lt;body&gt;<br>
+                
+                    <b>&lt;/body&gt;<br></b>
+                &lt;/html&gt;<br><br>
+                <img src="logo html5 200.png" alt="Logo HTML">
+                
+                
+                
+                <h3><b>Vamos agora aprender um pouco a história do HTML e como evoluiu para se tornar o que é hoje.</b></h3>
+                <hr>
+                <h4>Como surgiu o HTML?</h4>
+                <p>Em 1980, o Físico Britânico Tim Berners-Lee, iniciou um projeto baseado na Marcação de HiperTexto, denominado ENQUIRE. Este projeto foi realizado inicialmente através da linguagem de programação Pascal.<BR>Anos mais tarde, em 1889, Tim Berners-Lee e o estudante Robert Cailliau conseguiram implementar a primeira comunicação entre o usuário e servidor através do protocolo HTTP. Com isso, surgia então a World Wide Web (www), a web que conhecemos hoje.
+
+                    Com o objetivo de facilitar comunicação e disseminação de documentos entre pesquisadores, ele criou então a linguagem de marcação de hipertexto, o HTML. A sua primeira versão foi publicada em 1991 e foi baseada na SGML, uma linguagem de marcação utilizada para a estruturação de documentos.<br>O SGML já possuía diversas tags que foram herdadas pelo HTML. <br>Contudo, a maior diferença entre essas duas linguagens, é que o HTML implementava a tag &lt;a&gt;, permitindo a ligação de uma página a outra, conhecido como link.  <br>A interligação entre documentos é a base do funcionamento de toda <b>Web</b>.
+                    
+                    </p>
+                    <p>Sendo assim, podemos definir que uma página web é composta por três camadas. O HTML formará a primeira camada que apresenta o conteúdo ao usuário. O CSS formará segunda camada que dará forma aos elementos. Finalmente, o Javascript formará a terceira camada que adicionará comportamentos dinâmicos à página.</p>
+                    <img src="logo css 200.png" alt="CSS3"><br><br><br>
+                    <img src="logo html5 200.png" alt="logo HTML"><br><br><br>
+                    <img src="javascript-3.png" alt="java"><br><br><br>
+                    <hr>
+                    <h3>CSS</h3>
+                        Para poder dar forma ao nosso documento, é necessário trabalhar com o estilo em cascata, o CSS.  Com isso podemos estilizar todos nossos elementos, aplicando espaçamentos, cores, posicionamentos, tamanho de fontes, famílias de fontes, bordas e outros efeitos visuais que dão forma ao documento. Durante muito tempo, o estilo era aplicado diretamente na tag html. Hoje em dia, é possível utilizar um espaço dentro do seu documento html, através da tag &lt;style&gt;&lt;/style&gt; que deve ser declarada dentro do head, onde irá conter todo o CSS. Da mesma forma, pode-se utilizar uma folha de estilos externa, geralmente de extensão .css , o que deixa o código muito mais limpo e organizado. Atualmente, a versão mais recente do CSS é o CSS 3. Podemos considerar que o CSS é o corpo do nosso documento.</p>
+                        <hr>
+                        <h3>Javascript</h3>
+                        <p>O JavaScript, diferentemente do HTML e do CSS, é uma linguagem de programação, e em conjunto com esses, ele é capaz de dar vida, gerar movimento ao site. Ele é o que tornará os elementos mais dinâmicos, pois é o JavaScript que permite a execução de scripts na nossa página. Dessa forma, quando o usuário está navegando em uma página e executa uma ação que resulte em um comportamento na página, muito provavelmente será um script que executará esse comportamento. Portanto, o JavaScript pode ser comparado com o movimento do corpo (e do esqueleto) da nossa página.</p><br><br><br>
+                        <hr>
+                        <h4>Conseguiu entender até aqui? fiz um resumão pra você conseguir entender. Agora, o que ta esperando? vai logo estudar. &#x1F606;</h4>
+
+
+                    
+                
+                <br><br></p>
+            
+                    
+                    </p>
+
+
+            
+
+</body>
+</html>

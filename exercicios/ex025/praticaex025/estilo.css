@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+        background-image: url(imagens/galaxia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-attachment: fixed;
+
+
+}
+
+main > div {
+    
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+
+    
+   
+}

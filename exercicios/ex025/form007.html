@@ -7,27 +7,49 @@
 </head>
 <body>
    <h1>Exemplo de Formulario</h1>
-   <form action="cadastro.php">
+   <form action="cadastro.php" method="post" autocomplete="on">
 
     <p>
         <label for="iest">Estado</label>
         <select name="estado" id="iest">
             
-            <option value="SP">São Paulo</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="RJ">Rio De Janeiro</option>
+            <optgroup label="Região Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio De Janeiro</option>
+            </optgroup>
+            <optgroup label="Região Sul">
             <option value="PR">Paraná</option>
             <option value="SC">Santa Catarina</option>
-            <option value="ES">Espirito Santo</option>
-            <option value="BH">Belo Horizonte</option>
-            <option value="CE">Ceará</option>
+            <option value="SC">Santa Catarina</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="ES">Espirito Santo</option>
+                <option value="BH">Belo Horizonte</option>
+                <option value="CE">Ceará</option>
+            </optgroup>
 
-            
+
 
         </select>
 
     </p>
+    
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            
+            <option value="ADM">Administrador</option>
+            <option value="CONT">Contabilista</option>  
+            <option value="DEV">Desenvolvedor</option>
+            <option value="PROF">Professor</option>
 
+
+        </datalist>
+    </p>
+        <p><label for="imsg" style="font-weight: bolder;">Conte sobre você.</label></p>
+        <textarea name="msg" id="ims" cols="30" rows="10"></textarea>
 
     <p><input type="submit" value="Enviar"></p>
     <p><input type="reset" value="Limpar"></p>
